@@ -4,7 +4,7 @@
 # Creating Lists
 #1. ✅ Create a list of 10 pet names
 pet_names = ['Rose', 'Meow Meow Beans', 'Mr.Legumes', 'Luke', 'Lea', 'Princess Grace', 'Spot', 'Tom', 'Mini', 'Paul']
-
+cat_names = ['John', 'Bill']
 # Reading Information From Lists
 #2. ✅ Return the first pet name 
 print(pet_names[0])
@@ -30,28 +30,34 @@ print(pet_names.count('Rose'))
 
 # Updating Lists
 #9. ✅ Change the first element to all uppercase 
-
+print(pet_names[0].upper())
 
 #10. ✅ Append a new name to the list
-
+pet_names.append('David')
+print(pet_names)
 
 #11. ✅ Add a new name at a specific index
-
+pet_names.insert(4, 'Eli')
+print(pet_names)
 
 #12. ✅ Add two lists together 
-
+print(pet_names + cat_names)
 
 #13. ✅ Remove the final element from the list
-
+pet_names.pop()
+print(pet_names)
 
 #14. ✅ Remove element by specific index
-
+pet_names.pop(3)
+print(pet_names)
 
 #15. ✅ Remove a specific element 
-
+pet_names.remove('Luke')
+print(pet_names)
 
 #16. ✅ Remove all pet names from the list
-
+pet_names.clear()
+print(pet_names)
 
 #Tuple 
 # 📚 Review With Students:
