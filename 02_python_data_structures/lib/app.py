@@ -7,25 +7,26 @@ pet_names = ['Rose', 'Meow Meow Beans', 'Mr.Legumes', 'Luke', 'Lea', 'Princess G
 
 # Reading Information From Lists
 #2. ✅ Return the first pet name 
-
+print(pet_names[0])
 
 #3. ✅ Return all pet names beginning from the 3rd index
-
+print(pet_names[3:])
 
 #4. ✅ Return all pet names before the 3rd index
-
+print(pet_names[:3])
 
 #5. ✅  Return all pet names beginning from the 3rd index and up to the 7th
-
+print(pet_names[3:7])
 
 #6. ✅ Find the index of a given element
-
+print(pet_names.index('Rose'))
 
 #7. ✅ Reverse the original list
-
+pet_names.reverse()
+print(pet_names)
 
 #8. ✅ Return the frequency of a given element 
-
+print(pet_names.count('Rose'))
 
 # Updating Lists
 #9. ✅ Change the first element to all uppercase 
